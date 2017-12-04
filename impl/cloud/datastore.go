@@ -81,7 +81,9 @@ func (bds *boundDatastore) RunInTransaction(fn func(context.Context) error, opts
 	if opts != nil {
 		switch {
 		case opts.XG:
-			return errors.New("cross-group transactions are not supported")
+			// Ignore XG option, because all the transactions implicitly are XG.
+			// Refer: https://groups.google.com/forum/#!topic/gcd-discuss/YiQDESbe3ek
+			// return errors.New("cross-group transactions are not supported")
 		}
 	}
 
