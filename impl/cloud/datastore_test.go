@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/gae/service/info"
+	ds "github.com/conchoid/gae/service/datastore"
+	"github.com/conchoid/gae/service/info"
 
 	"cloud.google.com/go/datastore"
 	"go.chromium.org/luci/common/errors"

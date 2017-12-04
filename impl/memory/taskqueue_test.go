@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/gae/service/info"
-	tq "go.chromium.org/gae/service/taskqueue"
+	ds "github.com/conchoid/gae/service/datastore"
+	"github.com/conchoid/gae/service/info"
+	tq "github.com/conchoid/gae/service/taskqueue"
 
 	"go.chromium.org/luci/common/clock"
 	"go.chromium.org/luci/common/clock/testclock"

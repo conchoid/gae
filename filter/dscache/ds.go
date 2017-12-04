@@ -17,8 +17,8 @@ package dscache
 import (
 	"time"
 
-	ds "go.chromium.org/gae/service/datastore"
-	mc "go.chromium.org/gae/service/memcache"
+	ds "github.com/conchoid/gae/service/datastore"
+	mc "github.com/conchoid/gae/service/memcache"
 
 	"go.chromium.org/luci/common/errors"
 	log "go.chromium.org/luci/common/logging"

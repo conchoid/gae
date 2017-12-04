@@ -21,8 +21,8 @@ import (
 	"sort"
 	"time"
 
-	"go.chromium.org/gae/service/blobstore"
-	ds "go.chromium.org/gae/service/datastore"
+	"github.com/conchoid/gae/service/blobstore"
+	ds "github.com/conchoid/gae/service/datastore"
 	"go.chromium.org/luci/common/data/cmpbin"
 	"go.chromium.org/luci/common/data/stringset"
 )

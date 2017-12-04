@@ -20,9 +20,9 @@ import (
 	"strings"
 	"sync"
 
-	prodConstraints "go.chromium.org/gae/impl/prod/constraints"
-	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/gae/service/datastore/serialize"
+	prodConstraints "github.com/conchoid/gae/impl/prod/constraints"
+	ds "github.com/conchoid/gae/service/datastore"
+	"github.com/conchoid/gae/service/datastore/serialize"
 	"go.chromium.org/luci/common/errors"
 
 	"golang.org/x/net/context"

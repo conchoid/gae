@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/conchoid/gae/service/blobstore"
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/gae/service/blobstore"
 )
 
 type myint int

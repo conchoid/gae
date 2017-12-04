@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"go.chromium.org/gae/service/info"
+	"github.com/conchoid/gae/service/info"
 
 	"golang.org/x/net/context"
 

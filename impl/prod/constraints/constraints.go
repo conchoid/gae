@@ -16,8 +16,8 @@
 package constraints
 
 import (
-	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/gae/service/taskqueue"
+	"github.com/conchoid/gae/service/datastore"
+	"github.com/conchoid/gae/service/taskqueue"
 )
 
 // DS returns a datastore.Constraints object for the production datastore.

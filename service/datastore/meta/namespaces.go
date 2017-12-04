@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	ds "go.chromium.org/gae/service/datastore"
+	ds "github.com/conchoid/gae/service/datastore"
 
 	"golang.org/x/net/context"
 )
@@ -57,7 +57,7 @@ func Namespaces(c context.Context, cb NamespacesCallback) error {
 // NamespacesWithPrefix runs Namespaces, returning only namespaces beginning
 // with the supplied prefix string.
 func NamespacesWithPrefix(c context.Context, p string, cb NamespacesCallback) error {
-	// TODO: https://go.chromium.org/gae/issues/49 : When inequality filters are
+	// TODO: https://github.com/conchoid/gae/issues/49 : When inequality filters are
 	// supported, implement this using a "Gte" filter.
 	any := false
 	return Namespaces(c, func(ns string) error {

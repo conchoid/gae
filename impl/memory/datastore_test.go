@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/gae/service/datastore/serialize"
-	infoS "go.chromium.org/gae/service/info"
+	ds "github.com/conchoid/gae/service/datastore"
+	"github.com/conchoid/gae/service/datastore/serialize"
+	infoS "github.com/conchoid/gae/service/info"
 
 	"golang.org/x/net/context"
 

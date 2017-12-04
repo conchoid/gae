@@ -17,7 +17,7 @@ package memory
 import (
 	"bytes"
 
-	"go.chromium.org/gae/service/datastore/serialize"
+	"github.com/conchoid/gae/service/datastore/serialize"
 )
 
 type iterDefinition struct {

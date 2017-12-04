@@ -19,8 +19,8 @@ import (
 	"reflect"
 	"time"
 
-	bs "go.chromium.org/gae/service/blobstore"
-	ds "go.chromium.org/gae/service/datastore"
+	bs "github.com/conchoid/gae/service/blobstore"
+	ds "github.com/conchoid/gae/service/datastore"
 	"golang.org/x/net/context"
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/datastore"

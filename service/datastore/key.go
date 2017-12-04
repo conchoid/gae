@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"strings"
 
+	pb "github.com/conchoid/gae/service/datastore/internal/protos/datastore"
 	"github.com/golang/protobuf/proto"
-	pb "go.chromium.org/gae/service/datastore/internal/protos/datastore"
 )
 
 // KeyTok is a single token from a multi-part Key.

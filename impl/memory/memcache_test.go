@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/gae/service/info"
-	mc "go.chromium.org/gae/service/memcache"
+	"github.com/conchoid/gae/service/info"
+	mc "github.com/conchoid/gae/service/memcache"
 
 	"go.chromium.org/luci/common/clock/testclock"
 	. "go.chromium.org/luci/common/testing/assertions"

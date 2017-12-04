@@ -17,7 +17,7 @@ package prod
 import (
 	"time"
 
-	mc "go.chromium.org/gae/service/memcache"
+	mc "github.com/conchoid/gae/service/memcache"
 	"golang.org/x/net/context"
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/memcache"

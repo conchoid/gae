@@ -17,7 +17,7 @@ package prod
 import (
 	"net/http"
 
-	uf "go.chromium.org/gae/service/urlfetch"
+	uf "github.com/conchoid/gae/service/urlfetch"
 	"golang.org/x/net/context"
 	"google.golang.org/appengine/urlfetch"
 )

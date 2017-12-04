@@ -15,7 +15,7 @@
 package meta
 
 import (
-	ds "go.chromium.org/gae/service/datastore"
+	ds "github.com/conchoid/gae/service/datastore"
 
 	"golang.org/x/net/context"
 )

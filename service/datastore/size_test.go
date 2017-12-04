@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/conchoid/gae/service/blobstore"
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/gae/service/blobstore"
 )
 
 func mps(vals ...interface{}) PropertySlice {

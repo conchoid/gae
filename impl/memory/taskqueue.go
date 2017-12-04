@@ -21,8 +21,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"go.chromium.org/gae/service/info"
-	tq "go.chromium.org/gae/service/taskqueue"
+	"github.com/conchoid/gae/service/info"
+	tq "github.com/conchoid/gae/service/taskqueue"
 
 	"go.chromium.org/luci/common/clock"
 	"go.chromium.org/luci/common/errors"

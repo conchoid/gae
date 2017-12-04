@@ -18,9 +18,9 @@ import (
 	"sync"
 	"time"
 
-	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/gae/service/info"
-	mc "go.chromium.org/gae/service/memcache"
+	ds "github.com/conchoid/gae/service/datastore"
+	"github.com/conchoid/gae/service/info"
+	mc "github.com/conchoid/gae/service/memcache"
 
 	"go.chromium.org/luci/common/clock"
 

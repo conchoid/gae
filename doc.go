@@ -55,8 +55,8 @@
 //     "fmt"
 //     "net/http"
 //
-//     "go.chromium.org/gae/impl/prod"
-//     "go.chromium.org/gae/service/datastore"
+//     "github.com/conchoid/gae/impl/prod"
+//     "github.com/conchoid/gae/service/datastore"
 //     "golang.org/x/net/context"
 //   )
 //
@@ -87,8 +87,8 @@
 //     "fmt"
 //     "net/http"
 //
-//     "go.chromium.org/gae/impl/memory"
-//     "go.chromium.org/gae/service/datastore"
+//     "github.com/conchoid/gae/impl/memory"
+//     "github.com/conchoid/gae/service/datastore"
 //     "golang.org/x/net/context"
 //   )
 //

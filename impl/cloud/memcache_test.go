@@ -24,8 +24,8 @@ import (
 
 	"go.chromium.org/luci/common/errors"
 
-	"go.chromium.org/gae/service/info"
-	mc "go.chromium.org/gae/service/memcache"
+	"github.com/conchoid/gae/service/info"
+	mc "github.com/conchoid/gae/service/memcache"
 
 	"github.com/bradfitz/gomemcache/memcache"
 	"golang.org/x/net/context"

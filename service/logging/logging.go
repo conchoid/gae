@@ -16,6 +16,6 @@
 //
 // In order to use logging, please import and use the
 // "go.chromium.org/luci/common/logging" package. Both
-// "go.chromium.org/gae/impl/prod" and "go.chromium.org/gae/impl/memory"
+// "github.com/conchoid/gae/impl/prod" and "github.com/conchoid/gae/impl/memory"
 // implement that service appropriately.
 package logging

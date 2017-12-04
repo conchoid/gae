@@ -18,7 +18,7 @@ import (
 	"errors"
 	"strings"
 
-	ds "go.chromium.org/gae/service/datastore"
+	ds "github.com/conchoid/gae/service/datastore"
 	"go.chromium.org/luci/common/logging/memlogger"
 
 	"golang.org/x/net/context"
@@ -134,7 +134,7 @@ func Use(c context.Context) context.Context {
 }
 
 // UseInfo adds an implementation for:
-//   * go.chromium.org/gae/service/info
+//   * github.com/conchoid/gae/service/info
 // The application id wil be set to 'aid', and will not be modifiable in this
 // context. If 'aid' contains a "~" character, it will be treated as the
 // fully-qualified App ID and the AppID will be the string following the "~".
@@ -159,12 +159,12 @@ func UseInfo(c context.Context, aid string) context.Context {
 
 // UseWithAppID adds implementations for the following gae services to the
 // context:
-//   * go.chromium.org/gae/service/datastore
-//   * go.chromium.org/gae/service/info
-//   * go.chromium.org/gae/service/mail
-//   * go.chromium.org/gae/service/memcache
-//   * go.chromium.org/gae/service/taskqueue
-//   * go.chromium.org/gae/service/user
+//   * github.com/conchoid/gae/service/datastore
+//   * github.com/conchoid/gae/service/info
+//   * github.com/conchoid/gae/service/mail
+//   * github.com/conchoid/gae/service/memcache
+//   * github.com/conchoid/gae/service/taskqueue
+//   * github.com/conchoid/gae/service/user
 //   * go.chromium.org/luci/common/logger (using memlogger)
 //
 // The application id wil be set to 'aid', and will not be modifiable in this

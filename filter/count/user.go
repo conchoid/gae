@@ -15,7 +15,7 @@
 package count
 
 import (
-	"go.chromium.org/gae/service/user"
+	"github.com/conchoid/gae/service/user"
 	"golang.org/x/net/context"
 )
 

@@ -15,13 +15,13 @@
 package cloud
 
 import (
-	"go.chromium.org/gae/impl/dummy"
-	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/gae/service/mail"
-	mc "go.chromium.org/gae/service/memcache"
-	"go.chromium.org/gae/service/module"
-	"go.chromium.org/gae/service/taskqueue"
-	"go.chromium.org/gae/service/user"
+	"github.com/conchoid/gae/impl/dummy"
+	ds "github.com/conchoid/gae/service/datastore"
+	"github.com/conchoid/gae/service/mail"
+	mc "github.com/conchoid/gae/service/memcache"
+	"github.com/conchoid/gae/service/module"
+	"github.com/conchoid/gae/service/taskqueue"
+	"github.com/conchoid/gae/service/user"
 
 	"cloud.google.com/go/datastore"
 	cloudLogging "cloud.google.com/go/logging"

@@ -19,7 +19,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	tq "go.chromium.org/gae/service/taskqueue"
+	tq "github.com/conchoid/gae/service/taskqueue"
 )
 
 // TQCounter is the counter object for the TaskQueue service.

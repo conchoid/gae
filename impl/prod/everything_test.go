@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/gae/service/blobstore"
-	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/gae/service/info"
-	mc "go.chromium.org/gae/service/memcache"
+	"github.com/conchoid/gae/service/blobstore"
+	ds "github.com/conchoid/gae/service/datastore"
+	"github.com/conchoid/gae/service/info"
+	mc "github.com/conchoid/gae/service/memcache"
 
 	"go.chromium.org/luci/common/logging"
 

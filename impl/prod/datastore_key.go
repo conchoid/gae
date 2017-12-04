@@ -15,7 +15,7 @@
 package prod
 
 import (
-	ds "go.chromium.org/gae/service/datastore"
+	ds "github.com/conchoid/gae/service/datastore"
 	"go.chromium.org/luci/common/errors"
 	"golang.org/x/net/context"
 	"google.golang.org/appengine"

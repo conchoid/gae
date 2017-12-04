@@ -15,8 +15,8 @@
 package prod
 
 import (
-	"go.chromium.org/gae/impl/prod/constraints"
-	ds "go.chromium.org/gae/service/datastore"
+	"github.com/conchoid/gae/impl/prod/constraints"
+	ds "github.com/conchoid/gae/service/datastore"
 
 	"go.chromium.org/luci/common/errors"
 

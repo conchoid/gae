@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"go.chromium.org/gae"
+	"github.com/conchoid/gae"
 
 	"go.chromium.org/luci/common/errors"
 
@@ -30,7 +30,7 @@ var (
 	ErrNoSuchEntity          = datastore.ErrNoSuchEntity
 	ErrConcurrentTransaction = datastore.ErrConcurrentTransaction
 
-	// Stop is an alias for "go.chromium.org/gae".Stop
+	// Stop is an alias for "github.com/conchoid/gae".Stop
 	Stop = gae.Stop
 )
 

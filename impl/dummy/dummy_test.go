@@ -17,14 +17,14 @@ package dummy
 import (
 	"testing"
 
+	dsS "github.com/conchoid/gae/service/datastore"
+	infoS "github.com/conchoid/gae/service/info"
+	mailS "github.com/conchoid/gae/service/mail"
+	mcS "github.com/conchoid/gae/service/memcache"
+	modS "github.com/conchoid/gae/service/module"
+	tqS "github.com/conchoid/gae/service/taskqueue"
+	userS "github.com/conchoid/gae/service/user"
 	. "github.com/smartystreets/goconvey/convey"
-	dsS "go.chromium.org/gae/service/datastore"
-	infoS "go.chromium.org/gae/service/info"
-	mailS "go.chromium.org/gae/service/mail"
-	mcS "go.chromium.org/gae/service/memcache"
-	modS "go.chromium.org/gae/service/module"
-	tqS "go.chromium.org/gae/service/taskqueue"
-	userS "go.chromium.org/gae/service/user"
 	"golang.org/x/net/context"
 )
 

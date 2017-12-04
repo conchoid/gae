@@ -17,7 +17,7 @@ package count
 import (
 	"golang.org/x/net/context"
 
-	"go.chromium.org/gae/service/module"
+	"github.com/conchoid/gae/service/module"
 )
 
 // ModuleCounter is the counter object for the Module service.
